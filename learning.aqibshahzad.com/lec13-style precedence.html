@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Lecture13-</title>
+    <!-- Below is an another type of CSS Called Internal CSS where CSS is written in a block of style inside head, This is can also be used but prefer using External CSS instead of Internal.  -->
+    <style>
+        p{
+            color: black;
+            background-color: red;
+        }
+    </style>
+    <!-- Below is final example of external CSS Link where we have linked the CSS file to this markup. -->
+    <link rel="stylesheet" href="lec13.css">
+</head>
+<body>
+<h2>This is CSS Lecture, How to add Inline vs Internal vs External CSS, precedence of CSS</h2>
+<!-- Below is an example in Inline CSS where CSS is written inside HTML tags, it worse way of writing CSS and Highly discouraged.  -->
+<span style="color: brown; background-color: yellow;">This is teach everything need to know about HTML/CSS</span>
+<p>This is peragraph where Internal CSS is being effected.</p>
+<div>This is heding-6 where exteranl CSS "lec13.css" is being applied</div>
+</body>
+</html>

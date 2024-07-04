@@ -1,0 +1,47 @@
+.NavBar{
+    background-color: rgb(77, 132, 247);
+    border-radius: 6px;
+}
+.NavBar ul{
+    overflow: auto;
+    
+}
+.NavBar li{
+    float: left;
+    list-style: none;
+    margin: 20px 10px;
+    
+}
+.NavBar li a{
+    text-decoration: none;
+    padding: 3px 3px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    background-color: rgb(36, 165, 57);
+    border: 3px solid black;
+}
+a:visited{
+    background-color: rgb(36, 165, 57);;
+}
+a:active{
+    background-color: black;
+}
+.Search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+    padding-top: 15px;
+}
+.NavBar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 14px;
+    margin: 2px;
+    width: 129px;
+}

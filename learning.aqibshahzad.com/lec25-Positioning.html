@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posioning</title>
+    <style>
+        .Box{
+            border: 2px solid red;
+            width: 150px;
+            height: 150px;
+            margin: 2px;
+            display: inline-block;
+            font-weight: bold;
+            text-align: left;
+
+
+        }
+        #Box1{
+            position: static;
+            top: 30px;
+            left: 30px;
+            color: black;
+        }
+        #Box2{
+            position: relative;
+            top: 30px;
+            left: 30px;
+            color: red;
+        }
+        #Box3{
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            color: blue;
+        }
+        #Box4{
+            position: fixed;
+            right: 4px;
+            color: blueviolet;
+        }
+        .Container{
+            border: 2px solid rgb(19, 46, 225);
+            background-color: khaki;
+            height: 12345px;
+        }
+        #Box5{
+            position: sticky;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Container">
+    <div class="Box" id="Box1">Box1: position: static;, top: 30px;, left: 30px</div>
+    <div class="Box" id="Box2">Box2: position: relative;, top: 30px;, left: 30px;, color: red;</div>
+    <div class="Box" id="Box3">Box3:  position: absolute;,top: 30px;, left: 30px; color:blue;</div>
+    <div class="Box" id="Box4">Box4:position: fixed;right: 4px;color: blueviolet;</div>
+    <div class="Box" id="Box5">Box5: </div>
+    </div>
+</body>
+</html>

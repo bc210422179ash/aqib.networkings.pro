@@ -1,0 +1,74 @@
+<!-- Todays Topic is Forms -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lec8-Forms</title>
+</head>
+<body>
+    <h2>This is HTML Form tutorial Written by <strong><b>Aqib</b> shahzad</strong> </h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="MyName" id="name">
+        </div>
+        <br>
+        <Label for="Roll">My Roll</Label>
+        <div>
+             <input type="text" name="MyRoll" id="Roll">
+        </div>
+        <br>
+        <label for="email">Email</label>
+        <div>
+            <input type="email" name="MyEmail" id="email">
+        </div>
+        <br>
+        <label for="date">Date of Birth</label>
+        <div>
+            <input type="date" name="MyDate" id="date">
+        </div>
+        <br>
+        <label for="RollNumber">Roll Number</label>
+        <div>
+            <input type="number" name="RollNumber" id="RollNumber">
+        </div>
+        <br>
+        <label for="18">Are You over 18</label>
+        <div>
+            <input type="checkbox" name="18" id="18" checked>
+        </div>
+        <br>
+        <label for="married">Are You Married</label>
+        <div>
+            <input type="checkbox" name="Married" id="married">
+        </div>
+        <br>
+        <label for="">Gender</label>
+        <div>
+           Male : <input type="radio" name="MyGender"> Female : <input type="radio" name="MyGender" > Other : <input type="radio" name="MyGender">
+        </div>
+        <br>
+        <label for="os">Operating System</label>
+        <div>
+            <select name="MyOS" id="os">
+                <option value="win">Windows</option>
+                <option value="mac" selected>Mac OS</option>
+                <option value="Ubuntu">Ubuntu</option>
+            </select>
+        </div>
+        <br>
+        <label for="text">Write About Yourself</label>
+        <div>
+            <textarea name="" id="text" cols="40" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+                  <input type="reset" value="Reset Now"> <br> <br> <input type="submit" value="Submit Now">
+        </div>
+
+    </form>
+
+</body>
+</html>

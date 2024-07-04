@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Selectors, Styling Links and Buttons</title>
+    <style>
+        .Container{
+            border: 2px solid red;
+            background-color: aliceblue;
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            background-color: rgb(36, 165, 57);
+            border: 3px solid black;
+        }
+        a:visited{
+            background-color: rgb(36, 165, 57);;
+        }
+        a:active{
+            background-color: black;
+        }
+        button:visited{
+            background-color: rgb(36, 165, 57);;
+        }
+        button:hover{
+            background-color: rgb(36, 165, 57);
+            border: 3px solid black;
+            
+        }
+        .BTN{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+            background-color: brown;
+            padding: 4px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+
+             
+
+        }
+    </style>
+</head>
+<body>
+    <div class="Container" id="Cont1">
+        <h3>This is My Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis fugit facere, porro voluptate, facilis et omnis harum, laboriosam at quo incidunt eius possimus reprehenderit beatae ab iure sapiente quisquam. Velit!</p>
+        <a class="BTN" target=”_blank” href="https://www.naturalreaders.com/online/"><strong>Read more</strong></a>
+        <button class="BTN" target=”_blank” onclick="window.location.href='https://www.naturalreaders.com/online/';" > <strong> Contact Us</strong></button>
+
+    </div>
+</body>
+</html>
